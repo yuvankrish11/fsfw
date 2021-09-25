@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FIR FORM</title>
+    <style>
+        body{
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <h2>ACCOUNT INFORMATION</h2>
+    <label for="uname">Username *</label>
+    <input type="text" size="40" style="height: 50px;">
+    <p><center>Spaces are allowed; punctuation is not allowed except for periods, hyphens, apostrophes, and underscores.</p></center>
+    <br/>
+    <label for="email">E-mail Address *</label>
+    <input type="email" size="40" style="height: 50px;">
+    <p><center>A valid e-mail address. All e-mails from the system will be sent to this address. The e-mail address is not made public and will only be used if you wish to receive a new password or wish to receive certain news or notifications by e-mail.</p></center>
+    <br/>
+    <h3>Password Requirements</h3>
+    <p><center>Password must be at least 8 characters in length.</center></p>
+    <br/>
+    <br/>
+    <br/>
+    <p><center>Password must not match last 3 passwords.</center></p>
+    <br/>
+    <br/>
+    <br/>
+    <p><center>Password must contain at least one punctuation (not whitespace or an alphanumeric) character.</p></center>
+    <br/>
+    <br/>
+    <br/>
+    <p><center>Password must not contain the username.</p></center>
+    <br/>
+    <br/>
+    <br/>
+    <p><center>Password must contain characters of at least one of the following types: lowercase, uppercase, digit or punctuation.</p></center>
+    <br/>
+    <label for="pword">Password *</label>
+    <input type="password" size="40" style="height: 50px;">
+    <br/>
+    <label for="pword">Confirm Password *</label>
+    <input type="password" id="confirm_password" size="40" style="height: 50px;">
+    </form>
+    <p><center>Provide a password for the new account in both fields.</p></center>
+    <h1>Personal Information</h1>
+    <label for="fname">First Name *</label>
+    <input type="text" size="40" style="height: 50px;">
+    <br/>
+    <label for="lname">Last Name *</label>
+    <input type="text" size="40" style="height: 50px;">
+    <br/>
+    <label for="con">Country *</label>
+    <select name="con" height="50px">
+        <option value="Select">Select Your country</option>
+        <option value="INDIA">INDIA</option>
+        <option value="UK">UK</option>
+        <option value="INDONESIA">INDONESIA</option>
+        <option value="USA">USA</option>
+        <option value="MALAYSIA">MALAYSIA</option>
+    </select>
+    <br/>
+    <label for="pc">PIN Code *</label>
+    <input type="number" size="40" style="height: 50px;">
+    <br/>
+    <br/>
+    <br/>
+    <form method="POST" action="form2.html">
+        <input type="submit" value="CREATE AN ACCOUNT">
+    </form>
+</body>
+</html>
+<html>
